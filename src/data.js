@@ -15,12 +15,12 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/w1.PNG';
+import Project2 from './assets/img/projects/w2.PNG';
+import Project3 from './assets/img/projects/w3.PNG';
+import Project4 from './assets/img/projects/w4.PNG';
+import Project5 from './assets/img/projects/w5.PNG';
+import Project6 from './assets/img/projects/w6.PNG';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -56,8 +56,8 @@ export const navigation = [
     href: 'services',
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: 'Feedback',
+    href: 'Feedback',
   },
   {
     name: 'contact',
@@ -91,38 +91,50 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'RS Event Creature',
+    category: 'HTML,Bootstrap-5,CSS',
+    details:'In this projects any user can know whitch service i provide and how much cost of this service.Different Category have different price.',
+    livelink:'https://rs-event-creature.netlify.app/',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Camera World',
+    category: 'HTML,Bootstrap-5,CSS',
+    details:'This is a simple E-commerce projects for a sepific products.Here any user wants to know and buy all latest camera in this world',
+    livelink:'https://cameraworldbd.netlify.app/',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Rakibs Tuiton point',
+    category: 'React-JS,Firebase,Bootstrap-5',
+    details:'I am a professional Teacher .So It is necessary to know for update any batch and other issues .IT will help for my students to know update and which batch is running or close',
+    livelink:'https://rakibstuitorialpoint.netlify.app/',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'RS Phone Search',
+    category: 'Javascript,Contex API,Bootstrap-5',
+    details:'This is basically phone searching website where any user can find his phone that he choose.',
+    livelink:'https://rs-phone-search-home.netlify.app/',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'RS Computer Zone',
+    category: 'React Js,Node JS,Mongodb,Tailwind Css,Firebase',
+    details:'This is Manufacture website where any user can visits and buy his computer parts whole sell.An Interacive Admin Dashboard is present also User dashboard',
+    livelink:'https://manufacture-computer.web.app/',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'RFL Best Buy warehouse',
+    category: 'React Js,Node JS,Mongodb,Bootstrap-5,Firebase',
+    details:'This is warehouse management website where any businessman can store his own products and manage it easily',
+    livelink:'https://warehousemanagement-60ea7.web.app/',
   },
 ];
 
@@ -132,13 +144,13 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Web Development',
   },
   {
     name: 'web development',
   },
   {
-    name: 'branding',
+    name: 'Web Development',
   },
 ];
 
@@ -174,25 +186,25 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiSettings />,
     name: 'Web Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
+    icon: <FiSettings />,
+    name: 'Iot Works',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  },
+  {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Content Writing',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Teaching',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
@@ -229,12 +241,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at mislam172131@bscse.uiu.ac.bd',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Badda,Dhaka',
     description: 'Serving clients worldwide',
   },
 ];

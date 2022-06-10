@@ -22,10 +22,10 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+            <p className='text-2xl font-semibold capitalize mb-3'>Rakibul Islam</p>
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2022 Rakibul Islam. All rights reserved.
           </p>
         </div>
       </div>
