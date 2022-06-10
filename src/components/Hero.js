@@ -23,7 +23,7 @@ const Hero = () => {
 sincere and hard-working.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
+             <a href="https://www.linkedin.com/in/rakibul-islam-69a932173/">  Work with me</a>
             </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
